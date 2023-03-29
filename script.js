@@ -5,8 +5,8 @@ let answer = document.getElementById('answer')
 let btnTranslate = document.getElementById('btnTranslate')
 
 btnAre.addEventListener('click', function() {
-    let audio = document.getElementById('click')
-    audio.play()
+    let audioClick = document.getElementById('click')
+    audioClick.play()
     let audio = document.getElementById('right')
     audio.play()
     let image1 = document.getElementById('img01')
@@ -22,8 +22,8 @@ btnAre.addEventListener('click', function() {
 })
 
 btnHas.addEventListener('click', function() {
-    let audio = document.getElementById('click')
-    audio.play()
+    let audioClick = document.getElementById('click')
+    audioClick.play()
     let audio = document.getElementById('wrong')
     audio.play()
     answer.innerHTML = 'have'
@@ -33,8 +33,8 @@ btnHas.addEventListener('click', function() {
 })
 
 btnIs.addEventListener('click', function() {
-    let audio = document.getElementById('click')
-    audio.play()
+    let audioClick = document.getElementById('click')
+    audioClick.play()
     let audio = document.getElementById('wrong2')
     audio.play()
     answer.innerHTML = "Is"
@@ -44,8 +44,8 @@ btnIs.addEventListener('click', function() {
 })
 
 btnTranslate.addEventListener('click', function() {
-    let audio = document.getElementById('click')
-    audio.play()
+    let audioClick = document.getElementById('click')
+    audioClick.play()
     btnTranslate.innerHTML = 'Há muitas pessoas no show?'
     setTimeout(() => {
         btnTranslate.innerHTML = 'Translate'
